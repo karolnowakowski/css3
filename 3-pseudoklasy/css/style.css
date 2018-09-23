@@ -1,0 +1,21 @@
+#name:hover {
+    background-color: aquamarine;
+}
+#name:focus {
+    color: red;
+}
+.customer:first-child {
+    font-size: 2em;
+}
+.customer:nth-last-of-type(3) {
+    color: blue;
+}
+.customer:nth-child(3) {
+    color: blue;
+}
+.customer:nth-last-of-type(odd) {
+    color: blue;
+}
+.customer:nth-child(3n +4) {
+    background-color: beige;
+}
